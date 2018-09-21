@@ -23,10 +23,19 @@ body {
     background-color: #4aaaa5;
     color: #ffffff;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    float : left;
 }
 
 #main-header-nav-ul {
     list-style-type: none;
+}
+
+.link {
+    float : left;
+}
+
+.main-content {
+    clear : both;
 }
 
 .main-section {
