@@ -2,27 +2,33 @@ body {
     font-family : 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color :#777777;
 }
-/*
+
 .main-header {
-    background-color: #ffffff;
-    border-color: #cccccc;
+    background-color: #ffffff;  
+    border-color : #cccccc;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.header {
+    color : #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 .footer {
     background-color: #666666;
-    border-color: #cccccc;
 }
 
-header {
-    font-family: Georgia, Times, 'Times New Roman', serif;
-    color : #4aaaa5;
+#name {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-.nav-ul {
+#main-header-nav-ul {
     list-style-type: none;
 }
 
-li {
-    float : left;
+.main-section {
+    background-color : #ffffff;
+    border-color : #dddddd
 }
-*/
