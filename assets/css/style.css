@@ -15,6 +15,7 @@ body {
 }
 
 .footer {
+    clear : both;
     background-color: #666666;
 }
 
@@ -30,5 +31,9 @@ body {
 
 .main-section {
     background-color : #ffffff;
-    border-color : #dddddd
+    border-color : #dddddd;
+}
+
+#pic-profile {
+    float : left;
 }
