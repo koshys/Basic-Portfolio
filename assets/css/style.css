@@ -10,6 +10,46 @@ body, .nav-a {
     width : 960px;
 }
 
+#name {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    float : left;
+    padding : 20px;
+    text-align: center;
+    font-size: 18pt;    
+}
+
+#empty {
+    padding : 30px 420px 37px 30px;
+    float : left;
+}
+
+.nav {
+    float : left;
+    padding-left : 20px;
+}
+
+#main-header-nav-ul {
+    list-style-type: none;
+    justify-content: left;
+}
+
+.link {
+    float : left;      
+}
+
+.nav-a {
+    text-decoration : none;
+    padding : 20px 10px 20px 20px;
+    text-align: center;
+}
+
+.nav-a:hover {
+    text-decoration : underline;
+}
+
+
 .header {
     color : #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -21,33 +61,6 @@ body, .nav-a {
     width : 960px;
 }
 
-#name {
-    background-color: #4aaaa5;
-    color: #ffffff;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    float : left;
-    padding : 20px;
-    text-align: center;
-    font-size: 18pt;
-    
-}
-
-#main-header-nav-ul {
-    list-style-type: none;
-    
-}
-
-.link {
-    float : left;      
-}
-
-.nav-a {
-    text-decoration : none;
-}
-
-.nav-a:hover {
-    text-decoration : underline;
-}
 
 .main-content {
     clear : both;
