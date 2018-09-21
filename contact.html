@@ -3,24 +3,42 @@
     <head>
         <meta charset="utf-8">
         <title>Basic Portfolio </title>
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="assets/css/stylenone.css"/>
     </head>    
     <body>
-        <nav class="nav">
-                <ul class="nav-ul">
-                    <li class="nav-ul-li, unlink">Samson Koshy</li>
+        <header class = "main-header">  
+            <div id="name"> Samson Koshy</div>
+            <nav class="nav">
+                <ul id="main-header-nav-ul" class="nav-ul">
                     <li class="nav-ul-li, link"><a class="nav-ul-li, nav-a" href="index.html">About</a></li>
                     <li class="nav-ul-li, link"><a class="nav-ul-li, nav-a" href="portfolio.html">Portfolio</a></li>
                     <li class="nav-ul-li, link"><a class="nav-ul-li, nav-a" href="contact.html">Contact</a></li>
                 </ul>
-            </nav>
-        <div class="container">
-                <header class = "container header">
-                        Contact
-                </header> 
-                <section class="container main-section">
-    
-                </section>
+            </nav>                
+        </header> 
+        <div class="main-content">
+            <header class = "header">
+                    Contact
+            </header> 
+            <section class="main-section">
+                <div class="form-container">  
+                    <form id="form-contact" action="" method="post">
+                        <fieldset>
+                        <input placeholder="Name" type="text" tabindex="1" required autofocus>
+                        </fieldset>
+                        <fieldset>
+                        <input placeholder="Email" type="email" tabindex="2" required>
+                        </fieldset>
+                        <fieldset>
+                        <textarea placeholder="Message" tabindex="3" required></textarea>
+                        </fieldset>
+                        <fieldset>
+                        <button name="Submit" type="submit" id="contact-submit" data-submit="...Sending, Thank you!">Submit</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </section>
         </div>
+        <footer class = "footer">Copyright &copy; </footer>
     </body>
 </html> 
