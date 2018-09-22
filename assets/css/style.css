@@ -54,7 +54,7 @@ body, {
     font-family : 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-.nav-a:hover {
+.nav-a:hover, .para-link:hover {
     text-decoration : underline;
 }
 
@@ -132,3 +132,10 @@ body, {
     margin-top: 10px;
     margin-bottom: 20px;
 }
+
+.para-link {
+    text-decoration : none;
+    font-family : 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color : #777777;
+}
+
