@@ -139,3 +139,22 @@ body, {
     color : #777777;
 }
 
+.portfolio-pic {
+    width :300px;
+}
+
+.portfolio-band {
+    position : relative;
+}
+
+.note {
+    position : absolute;
+    bottom : 10px;
+    color : #ffffff;
+    font-family : 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size : 14pt;
+    text-align: center;
+    width : 300px;
+    background-color: #4aaaa5;
+    padding : 10px 0px 10px 0px;
+}
