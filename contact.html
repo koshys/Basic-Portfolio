@@ -26,18 +26,16 @@
                 <section class="main-section">
                     <div class="form-container">  
                         <form id="form-contact" action="" method="post">
-                            <fieldset>
-                            <input placeholder="Name" type="text" tabindex="1" required autofocus>
-                            </fieldset>
-                            <fieldset>
-                            <input placeholder="Email" type="email" tabindex="2" required>
-                            </fieldset>
-                            <fieldset>
-                            <textarea placeholder="Message" tabindex="3" required></textarea>
-                            </fieldset>
-                            <fieldset>
-                            <button name="Submit" type="submit" id="contact-submit" data-submit="...Sending, Thank you!">Submit</button>
-                            </fieldset>
+                            <div class="contact-label">Name</div><br>
+                            <input class = "contact-input" placeholder="Name" type="text" tabindex="1" required autofocus>
+
+                            <div class="contact-label">Email</div><br>                            
+                            <input class="contact-input" placeholder="Email" type="email" tabindex="2" required>
+
+                            <div class="contact-label">Message</div><br>
+                            <textarea id="contact-message" placeholder="Message" type="text" tabindex="3" required></textarea>
+
+                            <button id="contact-submit" name="Submit" type="submit" data-submit="...Sending, Thank you!">Submit</button>
                         </form>
                     </div>
                 </section>
